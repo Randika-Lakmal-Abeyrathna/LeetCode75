@@ -1,3 +1,5 @@
+package ArrayAndString;
+
 public class CanPlaceFlowers {
 
 
