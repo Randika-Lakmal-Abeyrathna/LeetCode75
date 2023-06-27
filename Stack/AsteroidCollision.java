@@ -1,5 +1,6 @@
 package Stack;
 
+import java.util.Arrays;
 import java.util.Stack;
 
 public class AsteroidCollision {
@@ -70,6 +71,12 @@ public class AsteroidCollision {
     }
 
     public static void main(String[] args) {
-        
+        int[] a1 = {5,10,-5};
+        int[] a2 = {8,-8};
+        int[] a3 = {10,2,-5};
+
+        System.out.println(Arrays.toString(asteroidCollision(a1)));
+        System.out.println(Arrays.toString(asteroidCollision(a2)));
+        System.out.println(Arrays.toString(asteroidCollision(a3)));
     }
 }
